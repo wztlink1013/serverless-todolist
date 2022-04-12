@@ -48,7 +48,7 @@ services:
       service: ${vars.service}
       function:
         name: todolist
-        description: 'Serverless Devs Web Framework Function'
+        description: 'todolist主函数'
         runtime: nodejs12
         codeUri: ./code
         handler: index.handler
